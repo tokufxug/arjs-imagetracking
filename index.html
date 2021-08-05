@@ -11,7 +11,12 @@
       arjs='sourceType: webcam; debugUIEnabled: false;' 
       > 
       <a-nft type="nft" url="/arjs-imagetracking/nft/image"> 
-        <a-box color="red" depth="50" height="50" width="50"></a-box> 
+        <!-- <a-box color="red" depth="50" height="50" width="50" ></a-box> -->
+        <a-entity
+            gltf-model="model/scene.gltf"
+            scale="5 5 5"
+            position="50 150 0"
+        >
       </a-nft> 
         <a-entity camera></a-entity> 
     </a-scene> 
