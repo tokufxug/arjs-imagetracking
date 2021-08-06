@@ -45,7 +45,7 @@
 
 <body style='margin : 0px; overflow: hidden;'>
     <div class="arjs-loader">
-        <div>16</div>
+        <div>17</div>
     </div>
     <a-scene
         vr-mode-ui="enabled: false;"
@@ -62,13 +62,14 @@
         <a-nft
             videohandler
             type='nft' url='arjs-imagetracking/video/dataNFT/pinball'
-            smooth="true" smoothCount="more" smoothTolerance="0.1" smoothThreshold="10"
-        >
+            smooth="true" smoothCount="more" smoothTolerance="0.1" smoothThreshold="10">
+            
+            <!-- ポジション X 左右 値が低いほど左へ -->
             <!-- ポジション Y 奥行 値が低いほど奥へ -->
             <!-- ポジション Z 上下 値が低いほど上へ -->
             <a-video
                 src="#vid"
-                position='150 -200 -150'
+                position='80 -200 -150'
                 rotation='90 0 180'
                 width='200'
                 height='150'
