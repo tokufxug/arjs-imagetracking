@@ -45,7 +45,7 @@
 
 <body style='margin : 0px; overflow: hidden;'>
     <div class="arjs-loader">
-        <div>14</div>
+        <div>15</div>
     </div>
     <a-scene
         vr-mode-ui="enabled: false;"
@@ -65,9 +65,10 @@
             smooth="true" smoothCount="more" smoothTolerance="0.1" smoothThreshold="10"
         >
             <!-- ポジション Y 奥行 値が低いほど奥へ -->
+            <!-- ポジション Z 上下 値が低いほど上へ -->
             <a-video
                 src="#vid"
-                position='50 -200 -250'
+                position='50 -200 -150'
                 rotation='90 0 180'
                 width='200'
                 height='150'
